@@ -1,0 +1,44 @@
+# Ambiente virtual
+.venv/
+venv/
+bigdata-env/
+
+# Bases e arquivos processados
+dados/
+*.csv
+*.parquet
+
+# Bancos locais
+*.duckdb
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache Python e Jupyter
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Spark, Hive e Hadoop locais
+spark-warehouse/
+.sparkStaging/
+metastore_db/
+derby.log
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.temp
+~$*
+hs_err_pid*
+
+# Arquivos compactados
+*.zip
+
+# Configurações locais do VS Code
+.vscode/
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
